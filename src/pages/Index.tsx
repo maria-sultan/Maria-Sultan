@@ -235,22 +235,19 @@ const Index = () => {
       institution: 'Fatima Jinnah Women University, The Mall Road, Rawalpindi',
       duration: 'Nov 2022 - Present',
       cgpa: '3.43'
-    },
-    {
-      degree: 'Intermediate in Computer Science',
-      institution: 'Global College System, Rawalpindi',
-      duration: 'July 2020 - July 2022',
-      percentage: '84%'
-    },
-    {
-      degree: 'Matriculation in Computer Science',
-      institution: 'F.G Girls Public High School, Rawalpindi',
-      duration: 'Oct 2017 - July 2020',
-      percentage: '86%'
     }
   ];
 
   const experience = [
+    {
+      position: 'Freelancer Junior AI/ML Engineer',
+      company: 'Softaura Solutions',
+      duration: 'December 2025 - Present',
+      location: 'Multan, Pakistan (Remote)',
+      description: 'Developing AI/ML models and automation workflows. Writing clean, efficient code; debugging, testing, and optimizing solutions. Delivering client-requested revisions and video demonstrations with clear progress communication.',
+      technologies: ['Python', 'AI/ML', 'Automation', 'APIs'],
+      type: 'Freelance'
+    },
     {
       position: 'Artificial Intelligence Intern',
       company: 'NESCOM - Islamabad',
@@ -412,13 +409,13 @@ const Index = () => {
               </div>
               <h1 className="leading-tight mb-6 animate-fade-in" style={{ animationDelay: '0.4s' }}>
                 <div className="text-2xl lg:text-3xl font-semibold mb-2 text-gray-300 hover:text-white transition-colors duration-300">
-                  AI/ML Engineer
+                  Junior AI/ML Engineer (Freelancer)
                 </div>
                 <div className="text-5xl lg:text-7xl font-bold text-blue-400 hover:text-cyan-400 transition-colors duration-300 hover:scale-105 transform">
                   Maria Sultan
                 </div>
                 <div className="text-xl lg:text-2xl font-medium bg-gradient-to-r from-green-400 to-blue-400 bg-clip-text text-transparent hover:scale-105 transition-transform duration-300">
-                  RAG & LLM Developer
+                  RAG & LLM Developer 
                 </div>
               </h1>
               <p className="text-xl text-gray-300 mb-8 leading-relaxed animate-fade-in" style={{ animationDelay: '0.6s' }}>
@@ -434,7 +431,7 @@ const Index = () => {
                   </Button>
                 </a>
                 <a 
-                 href="/maria_sultan.pdf" 
+                 href="/Maria Sultan (AI Engineer).pdf" 
                  download 
                  className="border border-white text-white hover:bg-white hover:text-black px-8 py-3 hover:scale-105 transition-all duration-300 group flex items-center rounded-md"
                 >
@@ -510,8 +507,8 @@ const Index = () => {
             <div className="lg:w-1/2 lg:pl-12">
               <h2 className="text-4xl font-bold mb-6 text-blue-400 hover:text-cyan-400 transition-colors duration-300">About Me</h2>
               <p className="text-lg leading-relaxed mb-6 text-gray-300 hover:text-white transition-colors duration-300">
-                I'm Maria Sultan, a Software Engineering student with hands-on experience in AI and natural language processing. 
-                I specialize in LLMs, RAG pipelines, and chatbot systems, gained from internships at NESCOM and NUTECH Innovation Center.
+                I'm Maria Sultan, a Software Engineering student and Junior AI/ML Engineer (Freelancer) at SoftAura Solutions, with hands-on experience in AI and natural language processing. 
+                I specialize in LLMs, RAG pipelines, and chatbot systems, gained from my current freelance role and internships at NESCOM and NUTECH Innovation Center.
                 I'm passionate about building practical, data-driven solutions for real-world problems.
               </p>
               <p className="text-lg leading-relaxed mb-6 text-gray-300 hover:text-white transition-colors duration-300">
@@ -852,8 +849,8 @@ const Index = () => {
                   </div>
                   <div className="flex items-center space-x-3">
                     <Github className="w-5 h-5 text-blue-400" />
-                    <a href="https://github.com/MariaSultanBahoo" className="hover:text-blue-400 transition-colors">
-                      github.com/MariaSultanBahoo
+                    <a href="https://github.com/maria-sultan/Maria-Sultan" className="hover:text-blue-400 transition-colors">
+                      github.com/MariaSultan
                     </a>
                   </div>
                   <div className="flex items-center space-x-3">
