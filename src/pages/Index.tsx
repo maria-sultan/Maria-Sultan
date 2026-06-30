@@ -233,29 +233,29 @@ const Index = () => {
     {
       degree: 'Bachelor of Science in Software Engineering',
       institution: 'Fatima Jinnah Women University, The Mall Road, Rawalpindi',
-      duration: 'Nov 2022 - Present',
-      cgpa: '3.43'
+      duration: 'Nov 2022 - June 2026',
+      cgpa: '3.42'
     }
   ];
 
   const experience = [
     {
-      position: 'Freelancer Junior AI/ML Engineer',
-      company: 'Softaura Solutions',
-      duration: 'December 2025 - Present',
-      location: 'Multan, Pakistan (Remote)',
-      description: 'Developing AI/ML models and automation workflows. Writing clean, efficient code; debugging, testing, and optimizing solutions. Delivering client-requested revisions and video demonstrations with clear progress communication.',
-      technologies: ['Python', 'AI/ML', 'Automation', 'APIs'],
-      type: 'Freelance'
+      position: 'Engineer Intern',
+      company: 'CARE PVT LTD.',
+      duration: 'Feb 2026 - June 2026',
+      location: 'Islamabad, Pakistan (Onsite)',
+      description: 'Worked on BMS data acquisition using ESP & CAN, with preprocessing and Firebase integration for real-time data flow. Developed association rules for battery attribute analysis and behavioral insights. Trained GANs and Transformer models for anomaly detection, SOH, and RUL prediction. Developed a Multi-Agent RAG system for automated reporting and battery data insights.',
+      technologies: ['Python', 'ESP & CAN', 'Firebase', 'GANs', 'Transformers', 'Agentic RAG', 'TensorFlow', 'PyTorch'],
+      type: 'Internship'
     },
     {
-      position: 'Artificial Intelligence Intern',
-      company: 'NESCOM - Islamabad',
-      duration: 'May 2025 - August 2025',
-      location: 'Islamabad, Pakistan (Hybrid)',
-      description: 'Explored LLMs and deep learning concepts with hands-on implementation. Built a multi-agent RAG system using LangChain, Streamlit, and Groq\'s LLAMA3-70B for SQL-based querying.',
-      technologies: ['Python', 'LangChain', 'Groq LLAMA3-70B', 'Streamlit', 'RAG', 'Deep Learning'],
-      type: 'Internship'
+      position: 'Junior AI / ML Engineer',
+      company: 'SoftAura Solutions',
+      duration: 'December 2025 - June 2026',
+      location: 'Multan, Pakistan (Remote)',
+      description: 'Designed, developed, and deployed AI/ML models and LLM-powered applications. Built scalable backend systems and integrated REST APIs for AI-driven solutions. Performed model evaluation, hyperparameter tuning, and performance optimization to improve accuracy and efficiency.',
+      technologies: ['Python', 'AI/ML', 'LLMs', 'REST APIs', 'Hyperparameter Tuning'],
+      type: 'Freelance'
     },
     {
       position: 'Artificial Intelligence Intern',
@@ -264,6 +264,15 @@ const Index = () => {
       location: 'Islamabad, Pakistan (On-site)',
       description: 'Developed an AI-powered admission chatbot using a RAG pipeline with LangChain and Groq LLMs. Engineered and deployed an LLM-based grammar and tense corrector web app. Built a social media emotion predictor using Hugging Face Transformers.',
       technologies: ['Python', 'LangChain', 'Groq LLMs', 'Hugging Face', 'RAG', 'Streamlit', 'Transformers'],
+      type: 'Internship'
+    },
+    {
+      position: 'Artificial Intelligence Intern',
+      company: 'NESCOM - Islamabad',
+      duration: 'May 2025 - Sep 2025',
+      location: 'Islamabad, Pakistan (Hybrid)',
+      description: 'Explored LLMs and deep learning concepts with hands-on implementation. Built a multi-agent Agentic RAG system using LangChain, Streamlit, and Groq\'s LLaMA3-70B for SQL-based querying.',
+      technologies: ['Python', 'LangChain', 'Groq LLaMA3-70B', 'Streamlit', 'Agentic RAG', 'Deep Learning'],
       type: 'Internship'
     }
   ];
@@ -409,7 +418,7 @@ const Index = () => {
               </div>
               <h1 className="leading-tight mb-6 animate-fade-in" style={{ animationDelay: '0.4s' }}>
                 <div className="text-2xl lg:text-3xl font-semibold mb-2 text-gray-300 hover:text-white transition-colors duration-300">
-                  Junior AI/ML Engineer (Freelancer)
+                  Software Engineering Graduate
                 </div>
                 <div className="text-5xl lg:text-7xl font-bold text-blue-400 hover:text-cyan-400 transition-colors duration-300 hover:scale-105 transform">
                   Maria Sultan
@@ -419,9 +428,9 @@ const Index = () => {
                 </div>
               </h1>
               <p className="text-xl text-gray-300 mb-8 leading-relaxed animate-fade-in" style={{ animationDelay: '0.6s' }}>
-                Passionate about AI, Machine Learning, and Software Development. 
-                Currently pursuing Software Engineering with hands-on experience in 
-                LLMs, RAG pipelines, and chatbot systems from internships at NESCOM and NUTECH. 🌍
+                Software Engineering graduate with over one year of hands-on experience in AI/ML, 
+                specializing in LLMs, Agentic RAG, chatbots, and deep learning. Experienced in building 
+                scalable AI solutions and data-driven applications for real-world problems. 🌍
               </p>
               <div className="flex space-x-4 animate-fade-in" style={{ animationDelay: '0.8s' }}>
                 <a href="#contact">
@@ -507,14 +516,15 @@ const Index = () => {
             <div className="lg:w-1/2 lg:pl-12">
               <h2 className="text-4xl font-bold mb-6 text-blue-400 hover:text-cyan-400 transition-colors duration-300">About Me</h2>
               <p className="text-lg leading-relaxed mb-6 text-gray-300 hover:text-white transition-colors duration-300">
-                I'm Maria Sultan, a Software Engineering student and Junior AI/ML Engineer (Freelancer) at SoftAura Solutions, with hands-on experience in AI and natural language processing. 
-                I specialize in LLMs, RAG pipelines, and chatbot systems, gained from my current freelance role and internships at NESCOM and NUTECH Innovation Center.
-                I'm passionate about building practical, data-driven solutions for real-world problems.
+                I'm Maria Sultan, a Software Engineering graduate with over one year of hands-on experience in AI/ML, 
+                specializing in Large Language Models (LLMs), Agentic RAG, chatbots, and deep learning. Skilled in Python, 
+                TensorFlow, PyTorch, Hugging Face Transformers, Pandas, and Autoencoders, with practical experience in ANN, 
+                CNN, RNN, and Transformer models.
               </p>
               <p className="text-lg leading-relaxed mb-6 text-gray-300 hover:text-white transition-colors duration-300">
-                My key projects include a Multi-Agent SQL Assistant using Agentic RAG Architecture, 
-                an FJWU Prospectus Q&A Chatbot with semantic search capabilities, and an Infectious Disease Prediction system. 
-                I'm proficient in Python, TensorFlow, PyTorch, Autoencoders, and Pandas.
+                Experienced in building scalable AI solutions, fine-tuning models, and developing data-driven applications 
+                for real-world problems — from multi-agent RAG systems and LLM-powered chatbots to GAN and Transformer-based 
+                anomaly detection for battery health monitoring.
               </p>
               <div className="flex flex-wrap gap-4 mb-6">
                 <Badge className="bg-blue-600/20 text-blue-300 border-blue-600/30 hover:scale-105 transition-all duration-300 hover:bg-blue-600/30">
